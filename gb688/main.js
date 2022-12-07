@@ -1,13 +1,12 @@
 // ==UserScript==
 // @name         gb688下载
 // @namespace    https://github.com/lzghzr/TampermonkeyJS
-// @version      1.0.7
-// @author       lzghzr, chorar
+// @version      2.0.0
+// @author       lzghzr, chorar, chengliang4810
 // @description  下载gb688.cn上的国标文件
 // @require     https://cdn.bootcdn.net/ajax/libs/html2canvas/1.4.1/html2canvas.min.js
 // @require     https://cdn.bootcss.com/jspdf/1.3.4/jspdf.debug.js
 // @require     https://cdn.bootcdn.net/ajax/libs/layer/3.5.1/layer.min.js
-// @supportURL  https://github.com/lzghzr/TampermonkeyJS/issues
 // @match        *://*.gb688.cn/bzgk/gb/showGb*
 // @match        *://*.samr.gov.cn/bzgk/gb/showGb*
 // @connect     c.gb688.cn
