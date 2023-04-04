@@ -43,9 +43,6 @@
 
         cloneDom.css({
             "background-color": "white",
-            //"position": "fixed",
-            //"top": "0",
-            //"left": "0",
             "opacity": "0",
             "z-index": "-9999",
             "height": height,
@@ -56,7 +53,7 @@
 
         $("body").append(cloneDom);
         html2canvas(
-            document.getElementsByClassName("pdfViewer")[0],
+            document.getElementsByClassName("pdfViewer")[1],
             {
                 dpi: 172,//导出pdf清晰度
                 useCORS:true,
