@@ -56,7 +56,7 @@
 
         $("body").append(cloneDom);
         html2canvas(
-            document.getElementsByClassName("pdfViewer")[1],
+            document.getElementsByClassName("pdfViewer")[0],
             {
                 dpi: 172,//导出pdf清晰度
                 useCORS:true,
