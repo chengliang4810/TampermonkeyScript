@@ -81,7 +81,7 @@
                     //a4纸的尺寸[595.28,841.89]，html页面生成的canvas在pdf中图片的宽高
                     var imgWidth = 595.28;
                     var imgHeight = 595.28/contentWidth * contentHeight;
-
+                    console.log(canvas)
                     var pageData = canvas.toDataURL();
                     console.log(pageData);
 
