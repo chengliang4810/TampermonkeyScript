@@ -4,8 +4,8 @@
 // @version      2.0.0
 // @author       lzghzr, chorar, chengliang4810
 // @description  下载gb688.cn上的国标文件
-// @require     https://cdn.bootcdn.net/ajax/libs/html2canvas/1.4.1/html2canvas.min.js
-// @require     https://cdn.bootcss.com/jspdf/1.3.4/jspdf.debug.js
+// @require     https://html2canvas.hertzen.com/dist/html2canvas.min.js
+// @require     https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js
 // @require     https://cdn.bootcdn.net/ajax/libs/layer/3.5.1/layer.min.js
 // @match        *://*.gb688.cn/bzgk/gb/showGb*
 // @match        *://*.samr.gov.cn/bzgk/gb/showGb*
@@ -82,7 +82,7 @@
                     var imgWidth = 595.28;
                     var imgHeight = 595.28/contentWidth * contentHeight;
                     console.log(canvas)
-                    var pageData = canvas.toDataURL();
+                    var pageData = canvas.toDataURL('image/jpeg', 1.0);
                     console.log(pageData);
 
                     var pdf = new jsPDF('', 'pt', 'a4');
